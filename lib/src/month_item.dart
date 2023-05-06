@@ -25,7 +25,7 @@ class MonthItem extends StatelessWidget {
       child: Text(
         name.toUpperCase(),
         style: TextStyle(
-          fontSize: shrink ? 10 : 14,
+          fontSize: shrink ? 9 : 10, // 10 : 14,
           color: isSelected
               ? activeColor ?? const Color(0xFF002265)
               : color ?? Colors.black87,
