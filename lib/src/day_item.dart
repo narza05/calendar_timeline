@@ -74,7 +74,7 @@ class DayItem extends StatelessWidget {
                 style: TextStyle(
                   color: dayNameColor ?? activeDayColor ?? Colors.white,
                   fontWeight: FontWeight.bold,
-                  fontSize: shrink ? 9 : 14,
+                  fontSize: shrink ? 9 : 10,
                 ),
               ),
           ],
