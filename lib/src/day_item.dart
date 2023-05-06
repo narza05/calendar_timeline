@@ -34,12 +34,12 @@ class DayItem extends StatelessWidget {
           ? dayColor ?? Theme.of(context).colorScheme.secondary
           : dayColor?.withOpacity(0.5) ??
               Theme.of(context).colorScheme.secondary.withOpacity(0.5),
-      fontSize: shrink ? 10 : 20,
+      fontSize: shrink ? 10 : 20, // 14 : 32
       fontWeight: FontWeight.normal,
     );
     final selectedStyle = TextStyle(
       color: activeDayColor ?? Colors.white,
-      fontSize: shrink ? 10 : 20,
+      fontSize: shrink ? 10 : 20, // 14 : 32
       fontWeight: FontWeight.bold,
       height: 0.8,
     );
@@ -74,7 +74,7 @@ class DayItem extends StatelessWidget {
                 style: TextStyle(
                   color: dayNameColor ?? activeDayColor ?? Colors.white,
                   fontWeight: FontWeight.bold,
-                  fontSize: shrink ? 9 : 10,
+                  fontSize: shrink ? 9 : 10, // 14 : 32
                 ),
               ),
           ],
