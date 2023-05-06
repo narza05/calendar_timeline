@@ -58,12 +58,12 @@ class DayItem extends StatelessWidget {
         width: shrink ? 33 : 60,
         child: Column(
           children: <Widget>[
-            if (isSelected) ...[
-              SizedBox(height: shrink ? 6 : 7),
-              if (!shrink) _buildDots(),
-              SizedBox(height: shrink ? 9 : 12),
-            ] else
-              SizedBox(height: shrink ? 10 : 14),
+//             if (isSelected) ...[
+//               SizedBox(height: shrink ? 6 : 7),
+//               if (!shrink) _buildDots(),
+//               SizedBox(height: shrink ? 9 : 12),
+//             ] else
+//               SizedBox(height: shrink ? 10 : 14),
             Text(
               dayNumber.toString(),
               style: isSelected ? selectedStyle : textStyle,
